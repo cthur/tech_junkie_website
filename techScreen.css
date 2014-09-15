@@ -1,0 +1,341 @@
+body {
+	background-color: #222;
+	width: 1000px;
+	margin: 0px auto;
+	font-family: Arial, sans-serif;
+	overflow-y: scroll;
+}
+/*///
+Logo
+///*/
+#logo {
+	height: 220px;
+	width: 980px;
+	background-image: url(images/techJunkieLogo.gif);
+	margin-left: 15px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+#logoLink {
+	position: absolute;
+	height: 220px;
+	width: 330px;
+}
+
+/*//////////////
+Main Navigation
+//////////////*/	
+#navBar {
+	width: 100%;
+	height: 56px;
+	text-align: center;
+	background-color: #000;
+	border-radius: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav {
+	list-style-type: none;
+	position: relative;
+	left: 40px;
+}
+#house {padding: 10px 27px;}
+#rec {padding: 10px 17px;}
+#med {padding: 10px 40px;}
+#mil {padding: 10px 42px;}
+#nav li {
+	display: inline;
+	float: left;
+	margin: 0px 5px;
+}
+.mainNav {
+	border-radius: 10px;
+	color: #900;
+	font-size: 1.3em;
+	text-decoration: none;
+	background-color: #999;
+	padding: 10px;
+	border: solid 3px #999;
+	position: relative;
+	top: 15px;
+}
+#navBar a:hover {
+	background-color: #006;
+	color: #999;
+}
+#navBar li ul {display: none;}
+#navBar li:hover ul {
+	display: block;
+	position: absolute;
+	top: 50px;
+	font-size: .95em;
+	text-align: left;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#navBar li:hover li {
+	display: block;
+	float: none;
+	background-color: #999;
+	border: solid 1px #fff;
+	border-top: none;
+	width: 145px;
+}
+#navBar li ul a {
+	display: block;
+	color: #000;
+}
+#navBar li:hover ul a {
+	text-decoration: none;
+	padding: 15px;
+}
+#navBar li ul a:hover {
+	background-color: #006;
+}
+
+/*//////////////
+Home Sublinks
+//////////////*/
+#homeSubCon {
+	width: 230px;
+	float: left;
+	background-color: #aaa;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-right: 25px;
+	font-size: .8em;
+}
+#homeSubCon a {
+	text-decoration: none;
+	color: #000;
+}
+h3 {
+	margin-left: 20px;
+	color: #30f;
+}
+.subLinks {
+	border-top: solid 1px #fff;
+	padding: 0px 5px 0px 5px;
+}
+.subLinks h3 {
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: .9em;
+	color: #900;
+}
+.subLinks p {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+/*///////////////////////
+2nd & 3rd Level Sublinks
+///////////////////////*/
+#subCon {
+	width: 230px;
+	float: left;
+	background-color: #000;
+	margin-top: 50px;
+	margin-right: 25px;
+	border-radius: 10px;
+	text-align: center;
+}
+#subCon h3 a{
+	color: #eee;
+	position: relative;
+	right: 20px;
+	width: 230px;
+}
+#subCon a {
+	font-size: 1.2em;
+	display: block;
+	text-decoration: none;
+	color: #00e300;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+}
+#subCon a:hover {
+	color: yellow;
+	background-color: #222;
+}
+
+/*////////////////////
+Main Content (Global)
+////////////////////*/
+#bread {
+	margin: 0px 0px 10px 0px;
+	color: #fff;
+}
+#bread a {
+	color: #00e300;
+	text-decoration: none;
+}
+#bread a:hover {
+	color: yellow;
+}
+#mainCon {
+	margin-top: 24px;
+	width: 730px;
+	float: left;
+}
+h2 {
+	display: inline;
+	padding: 5px 10px 15px 10px;
+	background-color: #eee;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	color: #009;
+}
+#mainCon h3 a {
+	text-decoration: none;
+	color: #003e00;
+}
+#mainCon h3 a:hover {
+	color: #900;
+}
+#mainCon div{
+	background-color: #eee;
+	padding: 15px;
+	margin-top: 0px;
+	padding-bottom: 30px;
+}
+#mainCon div p {
+	text-indent: 2em;
+}
+
+/*//////////////////////////
+Main Content (Second Level)
+//////////////////////////*/
+.mainImage {
+	float: right;
+	margin-top: 40px;
+}
+.mainPara {
+	width: 540px;
+}
+
+/*/////////////////////////
+Main Content (Third Level)
+/////////////////////////*/
+#secImage {
+	width: 250px;
+	height: 250px;
+	float: right;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+/*/////
+Footer
+/////*/
+#footer {
+	clear:both;
+	margin: 10px 0px;
+	background-color: #000;
+	text-align: right;
+	position: relative;
+	top: 20px;
+	border-radius: 20px;
+}
+#footer a {
+	color: #eee;
+	padding: 20px;
+	text-decoration: none;
+}
+#footer a:hover {
+	
+}
+
+/*//////
+Sitemap
+//////*/
+#sitemap {margin-top: 25px;}
+#sitemap h3 {
+	color: #003e00;
+}
+#sitemap div {
+	margin-top: 0px;
+	background-color: #eee;
+}
+#sitemap ul {
+	margin-left: 30px;
+	font-size: 1.1em;
+}
+#sitemap li {
+	padding: 10px;
+}
+ul li ul li{
+	font-size: .9em;
+}
+#sitemap #mainCon div a {
+	color: #003e00;
+	text-decoration: none;
+	font-weight: bold;
+}
+#sitemap #mainCon div a:hover {
+	color: #900;
+}
+#info {
+	color: #eee;
+}
+/*/////////
+Contact Us
+/////////*/
+#contact {
+	margin-top: 25px;
+}
+#contact #mainCon {
+	margin-top: 0px;
+}
+#signup {
+	margin-top: 0px;
+	padding: 30px;
+	background-color: #eee;
+}
+label {
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block
+}
+#contactInfo {width: 500px;}
+#contactInfo label {width: 8em;}
+#contactReason {width: 500px;}
+select {
+	position: relative;
+	left: 135px;
+}
+h4 {
+	position: relative;
+	left: 160px;
+	margin-bottom: 0px;
+}
+#contactReason label {width: 12em;}
+#comments {width: 500px;}
+.buttons {
+	display: inline;
+	position: relative;
+	top: 25px;
+	margin-bottom: 30px;
+}
+
+/*/////////
+References
+/////////*/
+#references {
+	margin-top: 25px;
+}
+#references #mainCon{
+	margin-top: 0px;
+	font-size: .9em;
+}
+#references #mainCon div {
+	padding-top: 30px;
+}
+#references #mainCon p {
+	text-indent: 0em;
+	margin-left: 25px;
+}
+#references div h2 {color: #900;}
+#references div h3 {color: #000;}
